@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">feature-user</string>
+    <string name="feature_user">FeatureUser</string>
+</resources>

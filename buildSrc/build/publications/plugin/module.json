@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "edu.tyut",
+    "module": "component-plugin",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "component-plugin-0.0.1.jar",
+          "url": "component-plugin-0.0.1.jar",
+          "size": 21291,
+          "sha512": "c1d5c9b2eb54be8059808599cca442e6c8f655bf25983dea74f66b33811516c2e5a98aeee8d3abb87b28e0b09ac00c6a37066b2962505037a28112ceda5649b0",
+          "sha256": "a7aaddf016ae4f18c0b2c56d829d526026960d21bfbf0a3fd6a0ef699f60f9b4",
+          "sha1": "85c35644484f8f013b1954da6c698093fdd6dec0",
+          "md5": "f980950777111848aa73b6fdb503adf9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.3"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle-api",
+          "version": {
+            "requires": "8.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "component-plugin-0.0.1.jar",
+          "url": "component-plugin-0.0.1.jar",
+          "size": 21291,
+          "sha512": "c1d5c9b2eb54be8059808599cca442e6c8f655bf25983dea74f66b33811516c2e5a98aeee8d3abb87b28e0b09ac00c6a37066b2962505037a28112ceda5649b0",
+          "sha256": "a7aaddf016ae4f18c0b2c56d829d526026960d21bfbf0a3fd6a0ef699f60f9b4",
+          "sha1": "85c35644484f8f013b1954da6c698093fdd6dec0",
+          "md5": "f980950777111848aa73b6fdb503adf9"
+        }
+      ]
+    }
+  ]
+}
