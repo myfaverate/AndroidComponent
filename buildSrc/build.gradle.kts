@@ -3,6 +3,7 @@ import org.gradle.kotlin.dsl.gradlePlugin
 plugins {
     `kotlin-dsl`
     `maven-publish`
+    alias(libs.plugins.plugin.publish)
 }
 
 group = "edu.tyut"
@@ -15,11 +16,16 @@ repositories {
 }
 
 gradlePlugin{
+    website.set("https://github.com/myfaverate/AndroidComponent")
+    vcsUrl.set("https://github.com/myfaverate/AndroidComponent.git")
     plugins{
         create("ComponentPlugin"){
             id = "edu.tyut.component-plugin"
             implementationClass = "edu.tyut.plugin.ComponentPlugin"
             version = "0.0.1"
+            displayName = "Gradle Android Componentization plugin"
+            description = "Gradle plugin to Android Componentization!"
+            tags.set(listOf("Android", "Componentization", "Kotlin"))
         }
     }
 }

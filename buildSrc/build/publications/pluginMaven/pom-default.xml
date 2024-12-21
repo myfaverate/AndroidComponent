@@ -9,4 +9,18 @@
   <groupId>edu.tyut</groupId>
   <artifactId>buildSrc</artifactId>
   <version>0.0.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.yaml</groupId>
+      <artifactId>snakeyaml</artifactId>
+      <version>2.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>gradle-api</artifactId>
+      <version>8.7.3</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
