@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ComponentPluginUse</string>
+    <string name="user_activity">UserActivity</string>
+</resources>

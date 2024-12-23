@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ComponentPluginUse</string>
+    <string name="home_activity">HomeActivity</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComponentPluginUse</string>
+    <string name="home">home</string>
+    <string name="user">user</string>
+    <string name="title_featureshop">FeatureShop</string>
+    <string name="title_featureread">Module Title</string>
+</resources>
