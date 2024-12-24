@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Component</string>
+    <string name="click">Click</string>
+    <string name="home">Home</string>
+    <string name="user">User</string>
+    <string name="title_feature_shot">eatur-shot</string>
+    <string name="title_feature_shop">FeatureShop</string>
+</resources>
